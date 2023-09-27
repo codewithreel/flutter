@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Animate Opacity'),
+        title: const Center(child: Text('Animate Opacity in Flutter')),
       ),
       // 3. And then we wrap image with gesture so we can detect taps
       // on the image and as a result we can switch the opacity
